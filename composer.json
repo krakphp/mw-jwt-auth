@@ -1,0 +1,23 @@
+{
+    "name": "krak/mw-jwt-auth",
+    "description": "JWT Auth MW",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "RJ Garcia",
+            "email": "rj@bighead.net"
+        }
+    ],
+    "autoload": {
+        "files": ["src/jwt-auth.php"]
+    },
+    "require": {
+        "krak/http-message": "^0.1.0",
+        "spomky-labs/jose": "^4.0"
+    },
+    "require-dev": {
+        "krak/mw": "^0.1.0",
+        "zendframework/zend-diactoros": "^1.3"
+    }
+}
