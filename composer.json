@@ -17,7 +17,9 @@
         "spomky-labs/jose": "^4.0"
     },
     "require-dev": {
+        "eloquent/phony": "^0.13.0",
         "krak/mw": "^0.1.0",
+        "peridot-php/peridot": "^1.18",
         "zendframework/zend-diactoros": "^1.3"
     }
 }
