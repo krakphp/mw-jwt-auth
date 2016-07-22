@@ -70,7 +70,7 @@ function jwtAuthMwFactory(
     $token_attribute_name = 'jwt'
 ) {
     return function($resp_factory) use ($jwk_set, $verifier, $validate, $loader, $token_attribute_name) {
-        return jwtAuthMw($jwk_set, $verifier, $validate, $resp_factory, $loader, $token_attribute_name);
+        return jwtAuthMw($jwk_set, $verifier, $resp_factory, $validate, $loader, $token_attribute_name);
     };
 }
 
